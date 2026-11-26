@@ -1,0 +1,2329 @@
+[
+  {
+    "databaseId": 10001,
+    "headBranch": "draft/TASK-001-rounding",
+    "headSha": "0000000000000000000000000000000000002711",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T09:02:54Z",
+    "startedAt": "2026-01-05T09:02:54Z",
+    "updatedAt": "2026-01-05T09:02:56Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10002,
+    "headBranch": "draft/TASK-001-rounding",
+    "headSha": "0000000000000000000000000000000000002712",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T09:08:35Z",
+    "startedAt": "2026-01-05T09:08:35Z",
+    "updatedAt": "2026-01-05T09:08:37Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10003,
+    "headBranch": "draft/TASK-001-rounding",
+    "headSha": "0000000000000000000000000000000000002713",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T09:13:23Z",
+    "startedAt": "2026-01-05T09:13:29Z",
+    "updatedAt": "2026-01-05T09:16:18Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T09:13:29Z",
+        "completed_at": "2026-01-05T09:16:18Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10004,
+    "headBranch": "ctrl/TASK-001-rounding",
+    "headSha": "0000000000000000000000000000000000002714",
+    "status": "completed",
+    "conclusion": "failure",
+    "createdAt": "2026-01-05T09:39:28Z",
+    "startedAt": "2026-01-05T09:39:48Z",
+    "updatedAt": "2026-01-05T09:42:18Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "failure",
+        "started_at": "2026-01-05T09:39:48Z",
+        "completed_at": "2026-01-05T09:42:18Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10005,
+    "headBranch": "ctrl/TASK-001-rounding",
+    "headSha": "0000000000000000000000000000000000002715",
+    "status": "completed",
+    "conclusion": "failure",
+    "createdAt": "2026-01-05T09:44:11Z",
+    "startedAt": "2026-01-05T09:44:20Z",
+    "updatedAt": "2026-01-05T09:46:55Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "failure",
+        "started_at": "2026-01-05T09:44:20Z",
+        "completed_at": "2026-01-05T09:46:55Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10006,
+    "headBranch": "ctrl/TASK-002-discount-rules",
+    "headSha": "0000000000000000000000000000000000002716",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T10:04:07Z",
+    "startedAt": "2026-01-05T10:04:16Z",
+    "updatedAt": "2026-01-05T10:06:47Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T10:04:16Z",
+        "completed_at": "2026-01-05T10:06:47Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10007,
+    "headBranch": "ctrl/TASK-002-discount-rules",
+    "headSha": "0000000000000000000000000000000000002717",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T10:05:13Z",
+    "startedAt": "2026-01-05T10:05:20Z",
+    "updatedAt": "2026-01-05T10:08:06Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T10:05:20Z",
+        "completed_at": "2026-01-05T10:08:06Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10008,
+    "headBranch": "ctrl/TASK-002-discount-rules",
+    "headSha": "0000000000000000000000000000000000002718",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T10:08:52Z",
+    "startedAt": "2026-01-05T10:09:00Z",
+    "updatedAt": "2026-01-05T10:12:02Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T10:09:00Z",
+        "completed_at": "2026-01-05T10:12:02Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10009,
+    "headBranch": "ctrl/TASK-002-discount-rules",
+    "headSha": "0000000000000000000000000000000000002719",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T10:11:26Z",
+    "startedAt": "2026-01-05T10:11:40Z",
+    "updatedAt": "2026-01-05T10:13:50Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T10:11:40Z",
+        "completed_at": "2026-01-05T10:13:50Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10010,
+    "headBranch": "ctrl/TASK-002-discount-rules",
+    "headSha": "000000000000000000000000000000000000271a",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T10:16:56Z",
+    "startedAt": "2026-01-05T10:16:59Z",
+    "updatedAt": "2026-01-05T10:19:47Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T10:16:59Z",
+        "completed_at": "2026-01-05T10:19:47Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10011,
+    "headBranch": "draft/TASK-002-discount-rules",
+    "headSha": "000000000000000000000000000000000000271b",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T10:37:11Z",
+    "startedAt": "2026-01-05T10:37:11Z",
+    "updatedAt": "2026-01-05T10:37:13Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10012,
+    "headBranch": "draft/TASK-002-discount-rules",
+    "headSha": "000000000000000000000000000000000000271c",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T10:43:11Z",
+    "startedAt": "2026-01-05T10:43:11Z",
+    "updatedAt": "2026-01-05T10:43:13Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10013,
+    "headBranch": "draft/TASK-002-discount-rules",
+    "headSha": "000000000000000000000000000000000000271d",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T10:47:27Z",
+    "startedAt": "2026-01-05T10:47:27Z",
+    "updatedAt": "2026-01-05T10:47:29Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10014,
+    "headBranch": "draft/TASK-002-discount-rules",
+    "headSha": "000000000000000000000000000000000000271e",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T10:49:13Z",
+    "startedAt": "2026-01-05T10:49:13Z",
+    "updatedAt": "2026-01-05T10:49:15Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10015,
+    "headBranch": "draft/TASK-002-discount-rules",
+    "headSha": "000000000000000000000000000000000000271f",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T10:55:09Z",
+    "startedAt": "2026-01-05T10:55:13Z",
+    "updatedAt": "2026-01-05T10:58:09Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T10:55:13Z",
+        "completed_at": "2026-01-05T10:58:09Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10016,
+    "headBranch": "draft/TASK-002-discount-rules",
+    "headSha": "0000000000000000000000000000000000002720",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T11:02:38Z",
+    "startedAt": "2026-01-05T11:02:38Z",
+    "updatedAt": "2026-01-05T11:02:40Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10017,
+    "headBranch": "draft/TASK-002-discount-rules",
+    "headSha": "0000000000000000000000000000000000002721",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T11:11:22Z",
+    "startedAt": "2026-01-05T11:11:35Z",
+    "updatedAt": "2026-01-05T11:13:49Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T11:11:35Z",
+        "completed_at": "2026-01-05T11:13:49Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10018,
+    "headBranch": "draft/TASK-003-tax-table",
+    "headSha": "0000000000000000000000000000000000002722",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T11:44:47Z",
+    "startedAt": "2026-01-05T11:44:47Z",
+    "updatedAt": "2026-01-05T11:44:49Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10019,
+    "headBranch": "draft/TASK-003-tax-table",
+    "headSha": "0000000000000000000000000000000000002723",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T11:48:42Z",
+    "startedAt": "2026-01-05T11:48:42Z",
+    "updatedAt": "2026-01-05T11:48:44Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10020,
+    "headBranch": "draft/TASK-003-tax-table",
+    "headSha": "0000000000000000000000000000000000002724",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T11:53:52Z",
+    "startedAt": "2026-01-05T11:53:59Z",
+    "updatedAt": "2026-01-05T11:56:31Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T11:53:59Z",
+        "completed_at": "2026-01-05T11:56:31Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10021,
+    "headBranch": "draft/TASK-003-tax-table",
+    "headSha": "0000000000000000000000000000000000002725",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T11:58:36Z",
+    "startedAt": "2026-01-05T11:58:36Z",
+    "updatedAt": "2026-01-05T11:58:38Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10022,
+    "headBranch": "draft/TASK-003-tax-table",
+    "headSha": "0000000000000000000000000000000000002726",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T12:00:33Z",
+    "startedAt": "2026-01-05T12:00:42Z",
+    "updatedAt": "2026-01-05T12:03:36Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T12:00:42Z",
+        "completed_at": "2026-01-05T12:03:36Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10023,
+    "headBranch": "ctrl/TASK-003-tax-table",
+    "headSha": "0000000000000000000000000000000000002727",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T12:24:48Z",
+    "startedAt": "2026-01-05T12:24:52Z",
+    "updatedAt": "2026-01-05T12:27:09Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T12:24:52Z",
+        "completed_at": "2026-01-05T12:27:09Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10024,
+    "headBranch": "ctrl/TASK-003-tax-table",
+    "headSha": "0000000000000000000000000000000000002728",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T12:31:10Z",
+    "startedAt": "2026-01-05T12:31:18Z",
+    "updatedAt": "2026-01-05T12:34:02Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T12:31:18Z",
+        "completed_at": "2026-01-05T12:34:02Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10025,
+    "headBranch": "ctrl/TASK-003-tax-table",
+    "headSha": "0000000000000000000000000000000000002729",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T12:39:59Z",
+    "startedAt": "2026-01-05T12:40:05Z",
+    "updatedAt": "2026-01-05T12:42:25Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T12:40:05Z",
+        "completed_at": "2026-01-05T12:42:25Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10026,
+    "headBranch": "draft/TASK-004-line-validation",
+    "headSha": "000000000000000000000000000000000000272a",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T13:09:37Z",
+    "startedAt": "2026-01-05T13:09:37Z",
+    "updatedAt": "2026-01-05T13:09:39Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10027,
+    "headBranch": "draft/TASK-004-line-validation",
+    "headSha": "000000000000000000000000000000000000272b",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T13:17:55Z",
+    "startedAt": "2026-01-05T13:17:55Z",
+    "updatedAt": "2026-01-05T13:17:57Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10028,
+    "headBranch": "draft/TASK-004-line-validation",
+    "headSha": "000000000000000000000000000000000000272c",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T13:25:43Z",
+    "startedAt": "2026-01-05T13:25:43Z",
+    "updatedAt": "2026-01-05T13:25:45Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10029,
+    "headBranch": "draft/TASK-004-line-validation",
+    "headSha": "000000000000000000000000000000000000272d",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T13:30:27Z",
+    "startedAt": "2026-01-05T13:30:27Z",
+    "updatedAt": "2026-01-05T13:30:29Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10030,
+    "headBranch": "draft/TASK-004-line-validation",
+    "headSha": "000000000000000000000000000000000000272e",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T13:40:08Z",
+    "startedAt": "2026-01-05T13:40:08Z",
+    "updatedAt": "2026-01-05T13:40:10Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10031,
+    "headBranch": "draft/TASK-004-line-validation",
+    "headSha": "000000000000000000000000000000000000272f",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T13:42:41Z",
+    "startedAt": "2026-01-05T13:42:41Z",
+    "updatedAt": "2026-01-05T13:42:43Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10032,
+    "headBranch": "draft/TASK-004-line-validation",
+    "headSha": "0000000000000000000000000000000000002730",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T13:45:33Z",
+    "startedAt": "2026-01-05T13:45:39Z",
+    "updatedAt": "2026-01-05T13:48:21Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T13:45:39Z",
+        "completed_at": "2026-01-05T13:48:21Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10033,
+    "headBranch": "draft/TASK-004-line-validation",
+    "headSha": "0000000000000000000000000000000000002731",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T13:53:45Z",
+    "startedAt": "2026-01-05T13:53:45Z",
+    "updatedAt": "2026-01-05T13:53:47Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10034,
+    "headBranch": "draft/TASK-004-line-validation",
+    "headSha": "0000000000000000000000000000000000002732",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T14:01:19Z",
+    "startedAt": "2026-01-05T14:01:33Z",
+    "updatedAt": "2026-01-05T14:04:13Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T14:01:33Z",
+        "completed_at": "2026-01-05T14:04:13Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10035,
+    "headBranch": "ctrl/TASK-004-line-validation",
+    "headSha": "0000000000000000000000000000000000002733",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T14:16:04Z",
+    "startedAt": "2026-01-05T14:16:09Z",
+    "updatedAt": "2026-01-05T14:18:54Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T14:16:09Z",
+        "completed_at": "2026-01-05T14:18:54Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10036,
+    "headBranch": "ctrl/TASK-004-line-validation",
+    "headSha": "0000000000000000000000000000000000002734",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T14:21:37Z",
+    "startedAt": "2026-01-05T14:21:49Z",
+    "updatedAt": "2026-01-05T14:24:00Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T14:21:49Z",
+        "completed_at": "2026-01-05T14:24:00Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10037,
+    "headBranch": "ctrl/TASK-004-line-validation",
+    "headSha": "0000000000000000000000000000000000002735",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T14:30:21Z",
+    "startedAt": "2026-01-05T14:30:23Z",
+    "updatedAt": "2026-01-05T14:33:25Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T14:30:23Z",
+        "completed_at": "2026-01-05T14:33:25Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10038,
+    "headBranch": "ctrl/TASK-004-line-validation",
+    "headSha": "0000000000000000000000000000000000002736",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T14:35:50Z",
+    "startedAt": "2026-01-05T14:36:08Z",
+    "updatedAt": "2026-01-05T14:38:58Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T14:36:08Z",
+        "completed_at": "2026-01-05T14:38:58Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10039,
+    "headBranch": "ctrl/TASK-004-line-validation",
+    "headSha": "0000000000000000000000000000000000002737",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T14:38:38Z",
+    "startedAt": "2026-01-05T14:38:49Z",
+    "updatedAt": "2026-01-05T14:41:44Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T14:38:49Z",
+        "completed_at": "2026-01-05T14:41:44Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10040,
+    "headBranch": "ctrl/TASK-004-line-validation",
+    "headSha": "0000000000000000000000000000000000002738",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T14:43:01Z",
+    "startedAt": "2026-01-05T14:43:07Z",
+    "updatedAt": "2026-01-05T14:45:34Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T14:43:07Z",
+        "completed_at": "2026-01-05T14:45:34Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10041,
+    "headBranch": "ctrl/TASK-004-line-validation",
+    "headSha": "0000000000000000000000000000000000002739",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T14:44:01Z",
+    "startedAt": "2026-01-05T14:44:13Z",
+    "updatedAt": "2026-01-05T14:46:47Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T14:44:13Z",
+        "completed_at": "2026-01-05T14:46:47Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10042,
+    "headBranch": "draft/TASK-005-currency-format",
+    "headSha": "000000000000000000000000000000000000273a",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T15:07:38Z",
+    "startedAt": "2026-01-05T15:07:38Z",
+    "updatedAt": "2026-01-05T15:07:40Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10043,
+    "headBranch": "draft/TASK-005-currency-format",
+    "headSha": "000000000000000000000000000000000000273b",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T15:09:37Z",
+    "startedAt": "2026-01-05T15:09:37Z",
+    "updatedAt": "2026-01-05T15:09:39Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10044,
+    "headBranch": "draft/TASK-005-currency-format",
+    "headSha": "000000000000000000000000000000000000273c",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T15:11:57Z",
+    "startedAt": "2026-01-05T15:12:01Z",
+    "updatedAt": "2026-01-05T15:14:49Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T15:12:01Z",
+        "completed_at": "2026-01-05T15:14:49Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10045,
+    "headBranch": "draft/TASK-005-currency-format",
+    "headSha": "000000000000000000000000000000000000273d",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T15:15:05Z",
+    "startedAt": "2026-01-05T15:15:05Z",
+    "updatedAt": "2026-01-05T15:15:07Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10046,
+    "headBranch": "draft/TASK-005-currency-format",
+    "headSha": "000000000000000000000000000000000000273e",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T15:24:11Z",
+    "startedAt": "2026-01-05T15:24:30Z",
+    "updatedAt": "2026-01-05T15:26:44Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T15:24:30Z",
+        "completed_at": "2026-01-05T15:26:44Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10047,
+    "headBranch": "ctrl/TASK-005-currency-format",
+    "headSha": "000000000000000000000000000000000000273f",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T15:58:06Z",
+    "startedAt": "2026-01-05T15:58:14Z",
+    "updatedAt": "2026-01-05T16:01:14Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T15:58:14Z",
+        "completed_at": "2026-01-05T16:01:14Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10048,
+    "headBranch": "ctrl/TASK-005-currency-format",
+    "headSha": "0000000000000000000000000000000000002740",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T16:02:31Z",
+    "startedAt": "2026-01-05T16:02:42Z",
+    "updatedAt": "2026-01-05T16:05:10Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T16:02:42Z",
+        "completed_at": "2026-01-05T16:05:10Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10049,
+    "headBranch": "ctrl/TASK-005-currency-format",
+    "headSha": "0000000000000000000000000000000000002741",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T16:09:53Z",
+    "startedAt": "2026-01-05T16:10:09Z",
+    "updatedAt": "2026-01-05T16:13:07Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T16:10:09Z",
+        "completed_at": "2026-01-05T16:13:07Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10050,
+    "headBranch": "ctrl/TASK-006-export-csv",
+    "headSha": "0000000000000000000000000000000000002742",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T16:28:10Z",
+    "startedAt": "2026-01-05T16:28:14Z",
+    "updatedAt": "2026-01-05T16:30:39Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T16:28:14Z",
+        "completed_at": "2026-01-05T16:30:39Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10051,
+    "headBranch": "ctrl/TASK-006-export-csv",
+    "headSha": "0000000000000000000000000000000000002743",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T16:33:05Z",
+    "startedAt": "2026-01-05T16:33:25Z",
+    "updatedAt": "2026-01-05T16:35:43Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T16:33:25Z",
+        "completed_at": "2026-01-05T16:35:43Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10052,
+    "headBranch": "ctrl/TASK-006-export-csv",
+    "headSha": "0000000000000000000000000000000000002744",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T16:35:05Z",
+    "startedAt": "2026-01-05T16:35:14Z",
+    "updatedAt": "2026-01-05T16:37:23Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T16:35:14Z",
+        "completed_at": "2026-01-05T16:37:23Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10053,
+    "headBranch": "ctrl/TASK-006-export-csv",
+    "headSha": "0000000000000000000000000000000000002745",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T16:41:43Z",
+    "startedAt": "2026-01-05T16:41:47Z",
+    "updatedAt": "2026-01-05T16:44:22Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T16:41:47Z",
+        "completed_at": "2026-01-05T16:44:22Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10054,
+    "headBranch": "ctrl/TASK-006-export-csv",
+    "headSha": "0000000000000000000000000000000000002746",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T16:51:00Z",
+    "startedAt": "2026-01-05T16:51:08Z",
+    "updatedAt": "2026-01-05T16:53:45Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T16:51:08Z",
+        "completed_at": "2026-01-05T16:53:45Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10055,
+    "headBranch": "ctrl/TASK-006-export-csv",
+    "headSha": "0000000000000000000000000000000000002747",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T17:00:04Z",
+    "startedAt": "2026-01-05T17:00:13Z",
+    "updatedAt": "2026-01-05T17:03:05Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T17:00:13Z",
+        "completed_at": "2026-01-05T17:03:05Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10056,
+    "headBranch": "draft/TASK-006-export-csv",
+    "headSha": "0000000000000000000000000000000000002748",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T17:14:09Z",
+    "startedAt": "2026-01-05T17:14:09Z",
+    "updatedAt": "2026-01-05T17:14:11Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10057,
+    "headBranch": "draft/TASK-006-export-csv",
+    "headSha": "0000000000000000000000000000000000002749",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T17:22:30Z",
+    "startedAt": "2026-01-05T17:22:30Z",
+    "updatedAt": "2026-01-05T17:22:32Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10058,
+    "headBranch": "draft/TASK-006-export-csv",
+    "headSha": "000000000000000000000000000000000000274a",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T17:30:43Z",
+    "startedAt": "2026-01-05T17:30:43Z",
+    "updatedAt": "2026-01-05T17:30:45Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10059,
+    "headBranch": "draft/TASK-006-export-csv",
+    "headSha": "000000000000000000000000000000000000274b",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T17:39:41Z",
+    "startedAt": "2026-01-05T17:39:41Z",
+    "updatedAt": "2026-01-05T17:39:43Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10060,
+    "headBranch": "draft/TASK-006-export-csv",
+    "headSha": "000000000000000000000000000000000000274c",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T17:42:21Z",
+    "startedAt": "2026-01-05T17:42:21Z",
+    "updatedAt": "2026-01-05T17:42:23Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10061,
+    "headBranch": "draft/TASK-006-export-csv",
+    "headSha": "000000000000000000000000000000000000274d",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T17:50:13Z",
+    "startedAt": "2026-01-05T17:50:13Z",
+    "updatedAt": "2026-01-05T17:50:15Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10062,
+    "headBranch": "draft/TASK-006-export-csv",
+    "headSha": "000000000000000000000000000000000000274e",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T17:53:04Z",
+    "startedAt": "2026-01-05T17:53:13Z",
+    "updatedAt": "2026-01-05T17:55:29Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T17:53:13Z",
+        "completed_at": "2026-01-05T17:55:29Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10063,
+    "headBranch": "ctrl/TASK-007-rate-lookup",
+    "headSha": "000000000000000000000000000000000000274f",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T18:11:03Z",
+    "startedAt": "2026-01-05T18:11:10Z",
+    "updatedAt": "2026-01-05T18:13:31Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T18:11:10Z",
+        "completed_at": "2026-01-05T18:13:31Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10064,
+    "headBranch": "ctrl/TASK-007-rate-lookup",
+    "headSha": "0000000000000000000000000000000000002750",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T18:13:20Z",
+    "startedAt": "2026-01-05T18:13:36Z",
+    "updatedAt": "2026-01-05T18:16:29Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T18:13:36Z",
+        "completed_at": "2026-01-05T18:16:29Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10065,
+    "headBranch": "ctrl/TASK-007-rate-lookup",
+    "headSha": "0000000000000000000000000000000000002751",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T18:16:00Z",
+    "startedAt": "2026-01-05T18:16:03Z",
+    "updatedAt": "2026-01-05T18:18:47Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T18:16:03Z",
+        "completed_at": "2026-01-05T18:18:47Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10066,
+    "headBranch": "ctrl/TASK-007-rate-lookup",
+    "headSha": "0000000000000000000000000000000000002752",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T18:17:15Z",
+    "startedAt": "2026-01-05T18:17:19Z",
+    "updatedAt": "2026-01-05T18:20:19Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T18:17:19Z",
+        "completed_at": "2026-01-05T18:20:19Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10067,
+    "headBranch": "ctrl/TASK-007-rate-lookup",
+    "headSha": "0000000000000000000000000000000000002753",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T18:21:05Z",
+    "startedAt": "2026-01-05T18:21:20Z",
+    "updatedAt": "2026-01-05T18:23:54Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T18:21:20Z",
+        "completed_at": "2026-01-05T18:23:54Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10068,
+    "headBranch": "ctrl/TASK-007-rate-lookup",
+    "headSha": "0000000000000000000000000000000000002754",
+    "status": "completed",
+    "conclusion": "failure",
+    "createdAt": "2026-01-05T18:28:55Z",
+    "startedAt": "2026-01-05T18:28:58Z",
+    "updatedAt": "2026-01-05T18:31:12Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "failure",
+        "started_at": "2026-01-05T18:28:58Z",
+        "completed_at": "2026-01-05T18:31:12Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10069,
+    "headBranch": "ctrl/TASK-007-rate-lookup",
+    "headSha": "0000000000000000000000000000000000002755",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T18:36:34Z",
+    "startedAt": "2026-01-05T18:36:44Z",
+    "updatedAt": "2026-01-05T18:39:44Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T18:36:44Z",
+        "completed_at": "2026-01-05T18:39:44Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10070,
+    "headBranch": "ctrl/TASK-007-rate-lookup",
+    "headSha": "0000000000000000000000000000000000002756",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T18:42:26Z",
+    "startedAt": "2026-01-05T18:42:41Z",
+    "updatedAt": "2026-01-05T18:45:27Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T18:42:41Z",
+        "completed_at": "2026-01-05T18:45:27Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10071,
+    "headBranch": "draft/TASK-007-rate-lookup",
+    "headSha": "0000000000000000000000000000000000002757",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T19:15:42Z",
+    "startedAt": "2026-01-05T19:15:42Z",
+    "updatedAt": "2026-01-05T19:15:44Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10072,
+    "headBranch": "draft/TASK-007-rate-lookup",
+    "headSha": "0000000000000000000000000000000000002758",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T19:19:56Z",
+    "startedAt": "2026-01-05T19:19:56Z",
+    "updatedAt": "2026-01-05T19:19:58Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10073,
+    "headBranch": "draft/TASK-007-rate-lookup",
+    "headSha": "0000000000000000000000000000000000002759",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T19:24:38Z",
+    "startedAt": "2026-01-05T19:24:38Z",
+    "updatedAt": "2026-01-05T19:24:40Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10074,
+    "headBranch": "draft/TASK-007-rate-lookup",
+    "headSha": "000000000000000000000000000000000000275a",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T19:26:40Z",
+    "startedAt": "2026-01-05T19:26:40Z",
+    "updatedAt": "2026-01-05T19:26:42Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10075,
+    "headBranch": "draft/TASK-007-rate-lookup",
+    "headSha": "000000000000000000000000000000000000275b",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T19:28:38Z",
+    "startedAt": "2026-01-05T19:28:38Z",
+    "updatedAt": "2026-01-05T19:28:40Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10076,
+    "headBranch": "draft/TASK-007-rate-lookup",
+    "headSha": "000000000000000000000000000000000000275c",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T19:37:46Z",
+    "startedAt": "2026-01-05T19:37:46Z",
+    "updatedAt": "2026-01-05T19:37:48Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10077,
+    "headBranch": "draft/TASK-007-rate-lookup",
+    "headSha": "000000000000000000000000000000000000275d",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T19:41:27Z",
+    "startedAt": "2026-01-05T19:41:30Z",
+    "updatedAt": "2026-01-05T19:44:32Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T19:41:30Z",
+        "completed_at": "2026-01-05T19:44:32Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10078,
+    "headBranch": "draft/TASK-007-rate-lookup",
+    "headSha": "000000000000000000000000000000000000275e",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T19:45:37Z",
+    "startedAt": "2026-01-05T19:45:37Z",
+    "updatedAt": "2026-01-05T19:45:39Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10079,
+    "headBranch": "draft/TASK-007-rate-lookup",
+    "headSha": "000000000000000000000000000000000000275f",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T19:47:46Z",
+    "startedAt": "2026-01-05T19:47:46Z",
+    "updatedAt": "2026-01-05T19:47:48Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10080,
+    "headBranch": "draft/TASK-007-rate-lookup",
+    "headSha": "0000000000000000000000000000000000002760",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T19:55:39Z",
+    "startedAt": "2026-01-05T19:55:44Z",
+    "updatedAt": "2026-01-05T19:58:45Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T19:55:44Z",
+        "completed_at": "2026-01-05T19:58:45Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10081,
+    "headBranch": "ctrl/TASK-008-negative-qty",
+    "headSha": "0000000000000000000000000000000000002761",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T20:22:04Z",
+    "startedAt": "2026-01-05T20:22:08Z",
+    "updatedAt": "2026-01-05T20:24:38Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T20:22:08Z",
+        "completed_at": "2026-01-05T20:24:38Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10082,
+    "headBranch": "ctrl/TASK-008-negative-qty",
+    "headSha": "0000000000000000000000000000000000002762",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T20:31:59Z",
+    "startedAt": "2026-01-05T20:32:11Z",
+    "updatedAt": "2026-01-05T20:35:12Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T20:32:11Z",
+        "completed_at": "2026-01-05T20:35:12Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10083,
+    "headBranch": "ctrl/TASK-008-negative-qty",
+    "headSha": "0000000000000000000000000000000000002763",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T20:38:20Z",
+    "startedAt": "2026-01-05T20:38:29Z",
+    "updatedAt": "2026-01-05T20:40:49Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T20:38:29Z",
+        "completed_at": "2026-01-05T20:40:49Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10084,
+    "headBranch": "ctrl/TASK-008-negative-qty",
+    "headSha": "0000000000000000000000000000000000002764",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T20:44:27Z",
+    "startedAt": "2026-01-05T20:44:43Z",
+    "updatedAt": "2026-01-05T20:47:06Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T20:44:43Z",
+        "completed_at": "2026-01-05T20:47:06Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10085,
+    "headBranch": "ctrl/TASK-008-negative-qty",
+    "headSha": "0000000000000000000000000000000000002765",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T20:46:41Z",
+    "startedAt": "2026-01-05T20:46:43Z",
+    "updatedAt": "2026-01-05T20:49:15Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T20:46:43Z",
+        "completed_at": "2026-01-05T20:49:15Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10086,
+    "headBranch": "ctrl/TASK-008-negative-qty",
+    "headSha": "0000000000000000000000000000000000002766",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T20:49:23Z",
+    "startedAt": "2026-01-05T20:49:27Z",
+    "updatedAt": "2026-01-05T20:52:04Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T20:49:27Z",
+        "completed_at": "2026-01-05T20:52:04Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10087,
+    "headBranch": "ctrl/TASK-008-negative-qty",
+    "headSha": "0000000000000000000000000000000000002767",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T20:52:38Z",
+    "startedAt": "2026-01-05T20:52:51Z",
+    "updatedAt": "2026-01-05T20:55:48Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T20:52:51Z",
+        "completed_at": "2026-01-05T20:55:48Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10088,
+    "headBranch": "draft/TASK-008-negative-qty",
+    "headSha": "0000000000000000000000000000000000002768",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T21:16:05Z",
+    "startedAt": "2026-01-05T21:16:05Z",
+    "updatedAt": "2026-01-05T21:16:07Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10089,
+    "headBranch": "draft/TASK-008-negative-qty",
+    "headSha": "0000000000000000000000000000000000002769",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T21:24:33Z",
+    "startedAt": "2026-01-05T21:24:33Z",
+    "updatedAt": "2026-01-05T21:24:35Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10090,
+    "headBranch": "draft/TASK-008-negative-qty",
+    "headSha": "000000000000000000000000000000000000276a",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T21:30:42Z",
+    "startedAt": "2026-01-05T21:30:42Z",
+    "updatedAt": "2026-01-05T21:30:44Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10091,
+    "headBranch": "draft/TASK-008-negative-qty",
+    "headSha": "000000000000000000000000000000000000276b",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T21:31:50Z",
+    "startedAt": "2026-01-05T21:31:50Z",
+    "updatedAt": "2026-01-05T21:31:52Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10092,
+    "headBranch": "draft/TASK-008-negative-qty",
+    "headSha": "000000000000000000000000000000000000276c",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T21:37:56Z",
+    "startedAt": "2026-01-05T21:37:56Z",
+    "updatedAt": "2026-01-05T21:37:58Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10093,
+    "headBranch": "draft/TASK-008-negative-qty",
+    "headSha": "000000000000000000000000000000000000276d",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T21:41:13Z",
+    "startedAt": "2026-01-05T21:41:13Z",
+    "updatedAt": "2026-01-05T21:41:15Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10094,
+    "headBranch": "draft/TASK-008-negative-qty",
+    "headSha": "000000000000000000000000000000000000276e",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T21:44:11Z",
+    "startedAt": "2026-01-05T21:44:16Z",
+    "updatedAt": "2026-01-05T21:47:05Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T21:44:16Z",
+        "completed_at": "2026-01-05T21:47:05Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10095,
+    "headBranch": "draft/TASK-008-negative-qty",
+    "headSha": "000000000000000000000000000000000000276f",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T21:49:59Z",
+    "startedAt": "2026-01-05T21:49:59Z",
+    "updatedAt": "2026-01-05T21:50:01Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10096,
+    "headBranch": "draft/TASK-008-negative-qty",
+    "headSha": "0000000000000000000000000000000000002770",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T21:56:50Z",
+    "startedAt": "2026-01-05T21:56:58Z",
+    "updatedAt": "2026-01-05T21:59:44Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T21:56:58Z",
+        "completed_at": "2026-01-05T21:59:44Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10097,
+    "headBranch": "draft/TASK-009-audit-log",
+    "headSha": "0000000000000000000000000000000000002771",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T22:28:25Z",
+    "startedAt": "2026-01-05T22:28:25Z",
+    "updatedAt": "2026-01-05T22:28:27Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10098,
+    "headBranch": "draft/TASK-009-audit-log",
+    "headSha": "0000000000000000000000000000000000002772",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T22:30:17Z",
+    "startedAt": "2026-01-05T22:30:17Z",
+    "updatedAt": "2026-01-05T22:30:19Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10099,
+    "headBranch": "draft/TASK-009-audit-log",
+    "headSha": "0000000000000000000000000000000000002773",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T22:38:30Z",
+    "startedAt": "2026-01-05T22:38:30Z",
+    "updatedAt": "2026-01-05T22:38:32Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10100,
+    "headBranch": "draft/TASK-009-audit-log",
+    "headSha": "0000000000000000000000000000000000002774",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T22:40:15Z",
+    "startedAt": "2026-01-05T22:40:17Z",
+    "updatedAt": "2026-01-05T22:42:42Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T22:40:17Z",
+        "completed_at": "2026-01-05T22:42:42Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10101,
+    "headBranch": "draft/TASK-009-audit-log",
+    "headSha": "0000000000000000000000000000000000002775",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T22:45:43Z",
+    "startedAt": "2026-01-05T22:45:43Z",
+    "updatedAt": "2026-01-05T22:45:45Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10102,
+    "headBranch": "draft/TASK-009-audit-log",
+    "headSha": "0000000000000000000000000000000000002776",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-05T22:54:15Z",
+    "startedAt": "2026-01-05T22:54:15Z",
+    "updatedAt": "2026-01-05T22:54:17Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10103,
+    "headBranch": "draft/TASK-009-audit-log",
+    "headSha": "0000000000000000000000000000000000002777",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T23:02:32Z",
+    "startedAt": "2026-01-05T23:02:51Z",
+    "updatedAt": "2026-01-05T23:04:56Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T23:02:51Z",
+        "completed_at": "2026-01-05T23:04:56Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10104,
+    "headBranch": "ctrl/TASK-009-audit-log",
+    "headSha": "0000000000000000000000000000000000002778",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T23:34:39Z",
+    "startedAt": "2026-01-05T23:34:58Z",
+    "updatedAt": "2026-01-05T23:37:05Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T23:34:58Z",
+        "completed_at": "2026-01-05T23:37:05Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10105,
+    "headBranch": "ctrl/TASK-009-audit-log",
+    "headSha": "0000000000000000000000000000000000002779",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T23:38:10Z",
+    "startedAt": "2026-01-05T23:38:25Z",
+    "updatedAt": "2026-01-05T23:40:37Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T23:38:25Z",
+        "completed_at": "2026-01-05T23:40:37Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10106,
+    "headBranch": "ctrl/TASK-009-audit-log",
+    "headSha": "000000000000000000000000000000000000277a",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T23:39:50Z",
+    "startedAt": "2026-01-05T23:40:03Z",
+    "updatedAt": "2026-01-05T23:42:20Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T23:40:03Z",
+        "completed_at": "2026-01-05T23:42:20Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10107,
+    "headBranch": "ctrl/TASK-009-audit-log",
+    "headSha": "000000000000000000000000000000000000277b",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T23:42:35Z",
+    "startedAt": "2026-01-05T23:42:48Z",
+    "updatedAt": "2026-01-05T23:45:39Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T23:42:48Z",
+        "completed_at": "2026-01-05T23:45:39Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10108,
+    "headBranch": "ctrl/TASK-009-audit-log",
+    "headSha": "000000000000000000000000000000000000277c",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-05T23:50:31Z",
+    "startedAt": "2026-01-05T23:50:37Z",
+    "updatedAt": "2026-01-05T23:53:37Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-05T23:50:37Z",
+        "completed_at": "2026-01-05T23:53:37Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10109,
+    "headBranch": "ctrl/TASK-010-refactor-totals",
+    "headSha": "000000000000000000000000000000000000277d",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-06T00:05:04Z",
+    "startedAt": "2026-01-06T00:05:19Z",
+    "updatedAt": "2026-01-06T00:07:25Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-06T00:05:19Z",
+        "completed_at": "2026-01-06T00:07:25Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10110,
+    "headBranch": "ctrl/TASK-010-refactor-totals",
+    "headSha": "000000000000000000000000000000000000277e",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-06T00:11:44Z",
+    "startedAt": "2026-01-06T00:11:59Z",
+    "updatedAt": "2026-01-06T00:14:52Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-06T00:11:59Z",
+        "completed_at": "2026-01-06T00:14:52Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10111,
+    "headBranch": "ctrl/TASK-010-refactor-totals",
+    "headSha": "000000000000000000000000000000000000277f",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-06T00:16:58Z",
+    "startedAt": "2026-01-06T00:17:08Z",
+    "updatedAt": "2026-01-06T00:19:22Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-06T00:17:08Z",
+        "completed_at": "2026-01-06T00:19:22Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10112,
+    "headBranch": "ctrl/TASK-010-refactor-totals",
+    "headSha": "0000000000000000000000000000000000002780",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-06T00:24:29Z",
+    "startedAt": "2026-01-06T00:24:32Z",
+    "updatedAt": "2026-01-06T00:27:28Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-06T00:24:32Z",
+        "completed_at": "2026-01-06T00:27:28Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10113,
+    "headBranch": "draft/TASK-010-refactor-totals",
+    "headSha": "0000000000000000000000000000000000002781",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-06T00:52:09Z",
+    "startedAt": "2026-01-06T00:52:09Z",
+    "updatedAt": "2026-01-06T00:52:11Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10114,
+    "headBranch": "draft/TASK-010-refactor-totals",
+    "headSha": "0000000000000000000000000000000000002782",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-06T00:57:02Z",
+    "startedAt": "2026-01-06T00:57:02Z",
+    "updatedAt": "2026-01-06T00:57:04Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10115,
+    "headBranch": "draft/TASK-010-refactor-totals",
+    "headSha": "0000000000000000000000000000000000002783",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-06T00:58:26Z",
+    "startedAt": "2026-01-06T00:58:26Z",
+    "updatedAt": "2026-01-06T00:58:28Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10116,
+    "headBranch": "draft/TASK-010-refactor-totals",
+    "headSha": "0000000000000000000000000000000000002784",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-06T01:06:14Z",
+    "startedAt": "2026-01-06T01:06:14Z",
+    "updatedAt": "2026-01-06T01:06:16Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10117,
+    "headBranch": "draft/TASK-010-refactor-totals",
+    "headSha": "0000000000000000000000000000000000002785",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-06T01:11:59Z",
+    "startedAt": "2026-01-06T01:12:03Z",
+    "updatedAt": "2026-01-06T01:15:06Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-06T01:12:03Z",
+        "completed_at": "2026-01-06T01:15:06Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10118,
+    "headBranch": "ctrl/TASK-011-locale-fix",
+    "headSha": "0000000000000000000000000000000000002786",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-06T01:48:33Z",
+    "startedAt": "2026-01-06T01:48:47Z",
+    "updatedAt": "2026-01-06T01:51:32Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-06T01:48:47Z",
+        "completed_at": "2026-01-06T01:51:32Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10119,
+    "headBranch": "ctrl/TASK-011-locale-fix",
+    "headSha": "0000000000000000000000000000000000002787",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-06T01:55:12Z",
+    "startedAt": "2026-01-06T01:55:14Z",
+    "updatedAt": "2026-01-06T01:57:25Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-06T01:55:14Z",
+        "completed_at": "2026-01-06T01:57:25Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10120,
+    "headBranch": "ctrl/TASK-011-locale-fix",
+    "headSha": "0000000000000000000000000000000000002788",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-06T01:59:14Z",
+    "startedAt": "2026-01-06T01:59:34Z",
+    "updatedAt": "2026-01-06T02:02:36Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-06T01:59:34Z",
+        "completed_at": "2026-01-06T02:02:36Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10121,
+    "headBranch": "ctrl/TASK-011-locale-fix",
+    "headSha": "0000000000000000000000000000000000002789",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-06T02:02:05Z",
+    "startedAt": "2026-01-06T02:02:20Z",
+    "updatedAt": "2026-01-06T02:04:45Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-06T02:02:20Z",
+        "completed_at": "2026-01-06T02:04:45Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10122,
+    "headBranch": "draft/TASK-011-locale-fix",
+    "headSha": "000000000000000000000000000000000000278a",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-06T02:31:41Z",
+    "startedAt": "2026-01-06T02:31:41Z",
+    "updatedAt": "2026-01-06T02:31:43Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10123,
+    "headBranch": "draft/TASK-011-locale-fix",
+    "headSha": "000000000000000000000000000000000000278b",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-06T02:39:15Z",
+    "startedAt": "2026-01-06T02:39:15Z",
+    "updatedAt": "2026-01-06T02:39:17Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10124,
+    "headBranch": "draft/TASK-011-locale-fix",
+    "headSha": "000000000000000000000000000000000000278c",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-06T02:43:29Z",
+    "startedAt": "2026-01-06T02:43:29Z",
+    "updatedAt": "2026-01-06T02:43:31Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10125,
+    "headBranch": "draft/TASK-011-locale-fix",
+    "headSha": "000000000000000000000000000000000000278d",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-06T02:45:14Z",
+    "startedAt": "2026-01-06T02:45:14Z",
+    "updatedAt": "2026-01-06T02:45:16Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10126,
+    "headBranch": "draft/TASK-011-locale-fix",
+    "headSha": "000000000000000000000000000000000000278e",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-06T02:46:15Z",
+    "startedAt": "2026-01-06T02:46:33Z",
+    "updatedAt": "2026-01-06T02:49:33Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-06T02:46:33Z",
+        "completed_at": "2026-01-06T02:49:33Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10127,
+    "headBranch": "draft/TASK-012-batch-import",
+    "headSha": "000000000000000000000000000000000000278f",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-06T03:20:09Z",
+    "startedAt": "2026-01-06T03:20:09Z",
+    "updatedAt": "2026-01-06T03:20:11Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10128,
+    "headBranch": "draft/TASK-012-batch-import",
+    "headSha": "0000000000000000000000000000000000002790",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-06T03:28:30Z",
+    "startedAt": "2026-01-06T03:28:30Z",
+    "updatedAt": "2026-01-06T03:28:32Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10129,
+    "headBranch": "draft/TASK-012-batch-import",
+    "headSha": "0000000000000000000000000000000000002791",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-06T03:35:08Z",
+    "startedAt": "2026-01-06T03:35:08Z",
+    "updatedAt": "2026-01-06T03:35:10Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10130,
+    "headBranch": "draft/TASK-012-batch-import",
+    "headSha": "0000000000000000000000000000000000002792",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-06T03:38:15Z",
+    "startedAt": "2026-01-06T03:38:15Z",
+    "updatedAt": "2026-01-06T03:38:17Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10131,
+    "headBranch": "draft/TASK-012-batch-import",
+    "headSha": "0000000000000000000000000000000000002793",
+    "status": "completed",
+    "conclusion": "skipped",
+    "createdAt": "2026-01-06T03:47:54Z",
+    "startedAt": "2026-01-06T03:47:54Z",
+    "updatedAt": "2026-01-06T03:47:56Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": []
+  },
+  {
+    "databaseId": 10132,
+    "headBranch": "draft/TASK-012-batch-import",
+    "headSha": "0000000000000000000000000000000000002794",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-06T03:55:52Z",
+    "startedAt": "2026-01-06T03:56:04Z",
+    "updatedAt": "2026-01-06T03:58:33Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-06T03:56:04Z",
+        "completed_at": "2026-01-06T03:58:33Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10133,
+    "headBranch": "ctrl/TASK-012-batch-import",
+    "headSha": "0000000000000000000000000000000000002795",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-06T04:09:28Z",
+    "startedAt": "2026-01-06T04:09:43Z",
+    "updatedAt": "2026-01-06T04:12:27Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-06T04:09:43Z",
+        "completed_at": "2026-01-06T04:12:27Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10134,
+    "headBranch": "ctrl/TASK-012-batch-import",
+    "headSha": "0000000000000000000000000000000000002796",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-06T04:13:26Z",
+    "startedAt": "2026-01-06T04:13:46Z",
+    "updatedAt": "2026-01-06T04:16:09Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-06T04:13:46Z",
+        "completed_at": "2026-01-06T04:16:09Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10135,
+    "headBranch": "ctrl/TASK-012-batch-import",
+    "headSha": "0000000000000000000000000000000000002797",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-06T04:14:26Z",
+    "startedAt": "2026-01-06T04:14:37Z",
+    "updatedAt": "2026-01-06T04:16:59Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-06T04:14:37Z",
+        "completed_at": "2026-01-06T04:16:59Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10136,
+    "headBranch": "ctrl/TASK-012-batch-import",
+    "headSha": "0000000000000000000000000000000000002798",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-06T04:20:55Z",
+    "startedAt": "2026-01-06T04:21:11Z",
+    "updatedAt": "2026-01-06T04:23:42Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-06T04:21:11Z",
+        "completed_at": "2026-01-06T04:23:42Z"
+      }
+    ]
+  },
+  {
+    "databaseId": 10137,
+    "headBranch": "ctrl/TASK-012-batch-import",
+    "headSha": "0000000000000000000000000000000000002799",
+    "status": "completed",
+    "conclusion": "success",
+    "createdAt": "2026-01-06T04:30:38Z",
+    "startedAt": "2026-01-06T04:30:55Z",
+    "updatedAt": "2026-01-06T04:33:47Z",
+    "event": "pull_request",
+    "attempt": 1,
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "started_at": "2026-01-06T04:30:55Z",
+        "completed_at": "2026-01-06T04:33:47Z"
+      }
+    ]
+  }
+]

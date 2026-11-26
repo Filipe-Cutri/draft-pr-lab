@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "repo": "example/draft-pr-lab",
+    "collected_at": "2026-01-06T04:41:25Z",
+    "synthetic": true,
+    "generator": "tools/make_synthetic_data.py",
+    "seed": 42
+  },
+  "price_per_min_usd": 0.006,
+  "arms": {
+    "ctrl": {
+      "prs_merged": 12,
+      "runs_total": 59,
+      "runs_executed": 59,
+      "runs_skipped": 0,
+      "skipped_share_pct": 0.0,
+      "conclusions": {
+        "failure": 3,
+        "success": 56
+      },
+      "billable_minutes": 181,
+      "cost_usd": 1.09,
+      "billable_min_per_pr": 15.08,
+      "executed_runs_per_pr": 4.92,
+      "mean_billable_min_per_executed_run": 3.07,
+      "mean_wall_min_per_executed_run": 2.78,
+      "legacy_mean_wall_min_per_run_incl_skipped": 2.78,
+      "executed_without_job_data": 0
+    },
+    "draft": {
+      "prs_merged": 12,
+      "runs_total": 78,
+      "runs_executed": 19,
+      "runs_skipped": 59,
+      "skipped_share_pct": 75.6,
+      "conclusions": {
+        "skipped": 59,
+        "success": 19
+      },
+      "billable_minutes": 60,
+      "cost_usd": 0.36,
+      "billable_min_per_pr": 5.0,
+      "executed_runs_per_pr": 1.58,
+      "mean_billable_min_per_executed_run": 3.16,
+      "mean_wall_min_per_executed_run": 2.82,
+      "legacy_mean_wall_min_per_run_incl_skipped": 0.71,
+      "executed_without_job_data": 0
+    }
+  },
+  "pairs": [
+    {
+      "task": "TASK-001",
+      "ctrl_billable_min": 6,
+      "ctrl_executed": 2,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 3,
+      "draft_executed": 1,
+      "draft_skipped": 2,
+      "saved_min": 3
+    },
+    {
+      "task": "TASK-002",
+      "ctrl_billable_min": 16,
+      "ctrl_executed": 5,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 6,
+      "draft_executed": 2,
+      "draft_skipped": 5,
+      "saved_min": 10
+    },
+    {
+      "task": "TASK-003",
+      "ctrl_billable_min": 9,
+      "ctrl_executed": 3,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 6,
+      "draft_executed": 2,
+      "draft_skipped": 3,
+      "saved_min": 3
+    },
+    {
+      "task": "TASK-004",
+      "ctrl_billable_min": 22,
+      "ctrl_executed": 7,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 6,
+      "draft_executed": 2,
+      "draft_skipped": 7,
+      "saved_min": 16
+    },
+    {
+      "task": "TASK-005",
+      "ctrl_billable_min": 9,
+      "ctrl_executed": 3,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 6,
+      "draft_executed": 2,
+      "draft_skipped": 3,
+      "saved_min": 3
+    },
+    {
+      "task": "TASK-006",
+      "ctrl_billable_min": 18,
+      "ctrl_executed": 6,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 3,
+      "draft_executed": 1,
+      "draft_skipped": 6,
+      "saved_min": 15
+    },
+    {
+      "task": "TASK-007",
+      "ctrl_billable_min": 24,
+      "ctrl_executed": 8,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 8,
+      "draft_executed": 2,
+      "draft_skipped": 8,
+      "saved_min": 16
+    },
+    {
+      "task": "TASK-008",
+      "ctrl_billable_min": 22,
+      "ctrl_executed": 7,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 6,
+      "draft_executed": 2,
+      "draft_skipped": 7,
+      "saved_min": 16
+    },
+    {
+      "task": "TASK-009",
+      "ctrl_billable_min": 15,
+      "ctrl_executed": 5,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 6,
+      "draft_executed": 2,
+      "draft_skipped": 5,
+      "saved_min": 9
+    },
+    {
+      "task": "TASK-010",
+      "ctrl_billable_min": 12,
+      "ctrl_executed": 4,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 4,
+      "draft_executed": 1,
+      "draft_skipped": 4,
+      "saved_min": 8
+    },
+    {
+      "task": "TASK-011",
+      "ctrl_billable_min": 13,
+      "ctrl_executed": 4,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 3,
+      "draft_executed": 1,
+      "draft_skipped": 4,
+      "saved_min": 10
+    },
+    {
+      "task": "TASK-012",
+      "ctrl_billable_min": 15,
+      "ctrl_executed": 5,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 3,
+      "draft_executed": 1,
+      "draft_skipped": 5,
+      "saved_min": 12
+    }
+  ],
+  "paired": {
+    "n_pairs": 12,
+    "billable_ctrl_total": 181,
+    "billable_draft_total": 60,
+    "reduction_pct": 66.9,
+    "reduction_pct_ci95": [
+      59.0,
+      72.8
+    ],
+    "mean_diff_min": 10.08,
+    "mean_diff_min_ci95": [
+      7.33,
+      12.83
+    ],
+    "median_diff_min": 10.0,
+    "pairs_draft_cheaper_or_equal": 12,
+    "sign_flip_p_two_sided": 0.000488
+  },
+  "checks": {
+    "merged_prs_without_partner": [],
+    "runs_ignored_other_branches": 0,
+    "runs_not_completed": 0,
+    "executed_runs_without_job_data": 0,
+    "plan_mismatches": []
+  }
+}

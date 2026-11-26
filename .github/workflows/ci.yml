@@ -1,0 +1,53 @@
+name: CI
+
+# Experimental workflow for the draft-pr-lab replication package.
+#
+# Two behaviours live in ONE workflow so that both experiment arms share the
+# exact same build definition:
+#
+#   * ctrl/*   branches -> always run            (pre-adoption behaviour)
+#   * any other branch  -> run only if the PR is NOT a draft (draft-gated)
+#
+# `ready_for_review` is included in `types` so that converting a draft to
+# "Ready for review" starts the build. `converted_to_draft` is deliberately
+# NOT listed: toggling a PR back to draft never starts a build.
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, reopened, synchronize, ready_for_review]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    # When the condition is false the job (and therefore the whole run) is
+    # reported by GitHub as conclusion = "skipped" and is not billed.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      startsWith(github.head_ref, 'ctrl/') ||
+      github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements-dev.txt
+
+      - name: Unit tests
+        run: python -m pytest -q
+
+      # Stands in for a long, expensive build. Tune with repository variables
+      # (Settings > Secrets and variables > Actions > Variables).
+      - name: Simulated heavy build step
+        env:
+          SIMULATED_BUILD_SECONDS: ${{ vars.SIMULATED_BUILD_SECONDS || '120' }}
+          SIMULATED_JITTER_SECONDS: ${{ vars.SIMULATED_JITTER_SECONDS || '30' }}
+        run: python tools/simulate_load.py

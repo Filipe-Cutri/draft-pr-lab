@@ -1,0 +1,242 @@
+[
+  {
+    "number": 1,
+    "title": "[LAB] TASK-001 rounding",
+    "headRefName": "draft/TASK-001-rounding",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T09:00:00Z",
+    "mergedAt": "2026-01-05T09:36:59Z",
+    "closedAt": "2026-01-05T09:36:59Z"
+  },
+  {
+    "number": 2,
+    "title": "[LAB] TASK-001 rounding",
+    "headRefName": "ctrl/TASK-001-rounding",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T09:36:59Z",
+    "mergedAt": "2026-01-05T09:55:58Z",
+    "closedAt": "2026-01-05T09:55:58Z"
+  },
+  {
+    "number": 3,
+    "title": "[LAB] TASK-002 discount rules",
+    "headRefName": "ctrl/TASK-002-discount-rules",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T09:55:58Z",
+    "mergedAt": "2026-01-05T10:34:51Z",
+    "closedAt": "2026-01-05T10:34:51Z"
+  },
+  {
+    "number": 4,
+    "title": "[LAB] TASK-002 discount rules",
+    "headRefName": "draft/TASK-002-discount-rules",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T10:34:51Z",
+    "mergedAt": "2026-01-05T11:39:14Z",
+    "closedAt": "2026-01-05T11:39:14Z"
+  },
+  {
+    "number": 5,
+    "title": "[LAB] TASK-003 tax table",
+    "headRefName": "draft/TASK-003-tax-table",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T11:39:14Z",
+    "mergedAt": "2026-01-05T12:19:14Z",
+    "closedAt": "2026-01-05T12:19:14Z"
+  },
+  {
+    "number": 6,
+    "title": "[LAB] TASK-003 tax table",
+    "headRefName": "ctrl/TASK-003-tax-table",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T12:19:14Z",
+    "mergedAt": "2026-01-05T13:04:08Z",
+    "closedAt": "2026-01-05T13:04:08Z"
+  },
+  {
+    "number": 7,
+    "title": "[LAB] TASK-004 line validation",
+    "headRefName": "draft/TASK-004-line-validation",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T13:04:08Z",
+    "mergedAt": "2026-01-05T14:14:53Z",
+    "closedAt": "2026-01-05T14:14:53Z"
+  },
+  {
+    "number": 8,
+    "title": "[LAB] TASK-004 line validation",
+    "headRefName": "ctrl/TASK-004-line-validation",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T14:14:53Z",
+    "mergedAt": "2026-01-05T15:01:24Z",
+    "closedAt": "2026-01-05T15:01:24Z"
+  },
+  {
+    "number": 9,
+    "title": "[LAB] TASK-005 currency format",
+    "headRefName": "draft/TASK-005-currency-format",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T15:01:24Z",
+    "mergedAt": "2026-01-05T15:49:53Z",
+    "closedAt": "2026-01-05T15:49:53Z"
+  },
+  {
+    "number": 10,
+    "title": "[LAB] TASK-005 currency format",
+    "headRefName": "ctrl/TASK-005-currency-format",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T15:49:53Z",
+    "mergedAt": "2026-01-05T16:23:20Z",
+    "closedAt": "2026-01-05T16:23:20Z"
+  },
+  {
+    "number": 11,
+    "title": "[LAB] TASK-006 export csv",
+    "headRefName": "ctrl/TASK-006-export-csv",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T16:23:20Z",
+    "mergedAt": "2026-01-05T17:11:33Z",
+    "closedAt": "2026-01-05T17:11:33Z"
+  },
+  {
+    "number": 12,
+    "title": "[LAB] TASK-006 export csv",
+    "headRefName": "draft/TASK-006-export-csv",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T17:11:33Z",
+    "mergedAt": "2026-01-05T18:02:51Z",
+    "closedAt": "2026-01-05T18:02:51Z"
+  },
+  {
+    "number": 13,
+    "title": "[LAB] TASK-007 rate lookup",
+    "headRefName": "ctrl/TASK-007-rate-lookup",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T18:02:51Z",
+    "mergedAt": "2026-01-05T19:06:24Z",
+    "closedAt": "2026-01-05T19:06:24Z"
+  },
+  {
+    "number": 14,
+    "title": "[LAB] TASK-007 rate lookup",
+    "headRefName": "draft/TASK-007-rate-lookup",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T19:06:24Z",
+    "mergedAt": "2026-01-05T20:20:24Z",
+    "closedAt": "2026-01-05T20:20:24Z"
+  },
+  {
+    "number": 15,
+    "title": "[LAB] TASK-008 negative qty",
+    "headRefName": "ctrl/TASK-008-negative-qty",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T20:20:24Z",
+    "mergedAt": "2026-01-05T21:10:14Z",
+    "closedAt": "2026-01-05T21:10:14Z"
+  },
+  {
+    "number": 16,
+    "title": "[LAB] TASK-008 negative qty",
+    "headRefName": "draft/TASK-008-negative-qty",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T21:10:14Z",
+    "mergedAt": "2026-01-05T22:19:05Z",
+    "closedAt": "2026-01-05T22:19:05Z"
+  },
+  {
+    "number": 17,
+    "title": "[LAB] TASK-009 audit log",
+    "headRefName": "draft/TASK-009-audit-log",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T22:19:05Z",
+    "mergedAt": "2026-01-05T23:31:07Z",
+    "closedAt": "2026-01-05T23:31:07Z"
+  },
+  {
+    "number": 18,
+    "title": "[LAB] TASK-009 audit log",
+    "headRefName": "ctrl/TASK-009-audit-log",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-05T23:31:07Z",
+    "mergedAt": "2026-01-06T00:01:03Z",
+    "closedAt": "2026-01-06T00:01:03Z"
+  },
+  {
+    "number": 19,
+    "title": "[LAB] TASK-010 refactor totals",
+    "headRefName": "ctrl/TASK-010-refactor-totals",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-06T00:01:03Z",
+    "mergedAt": "2026-01-06T00:45:11Z",
+    "closedAt": "2026-01-06T00:45:11Z"
+  },
+  {
+    "number": 20,
+    "title": "[LAB] TASK-010 refactor totals",
+    "headRefName": "draft/TASK-010-refactor-totals",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-06T00:45:11Z",
+    "mergedAt": "2026-01-06T01:38:52Z",
+    "closedAt": "2026-01-06T01:38:52Z"
+  },
+  {
+    "number": 21,
+    "title": "[LAB] TASK-011 locale fix",
+    "headRefName": "ctrl/TASK-011-locale-fix",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-06T01:38:52Z",
+    "mergedAt": "2026-01-06T02:21:58Z",
+    "closedAt": "2026-01-06T02:21:58Z"
+  },
+  {
+    "number": 22,
+    "title": "[LAB] TASK-011 locale fix",
+    "headRefName": "draft/TASK-011-locale-fix",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-06T02:21:58Z",
+    "mergedAt": "2026-01-06T03:15:48Z",
+    "closedAt": "2026-01-06T03:15:48Z"
+  },
+  {
+    "number": 23,
+    "title": "[LAB] TASK-012 batch import",
+    "headRefName": "draft/TASK-012-batch-import",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-06T03:15:48Z",
+    "mergedAt": "2026-01-06T04:05:12Z",
+    "closedAt": "2026-01-06T04:05:12Z"
+  },
+  {
+    "number": 24,
+    "title": "[LAB] TASK-012 batch import",
+    "headRefName": "ctrl/TASK-012-batch-import",
+    "isDraft": false,
+    "state": "MERGED",
+    "createdAt": "2026-01-06T04:05:12Z",
+    "mergedAt": "2026-01-06T04:41:25Z",
+    "closedAt": "2026-01-06T04:41:25Z"
+  }
+]

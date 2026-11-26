@@ -1,0 +1,7 @@
+{
+  "repo": "example/draft-pr-lab",
+  "collected_at": "2026-01-06T04:41:25Z",
+  "synthetic": true,
+  "generator": "tools/make_synthetic_data.py",
+  "seed": 42
+}

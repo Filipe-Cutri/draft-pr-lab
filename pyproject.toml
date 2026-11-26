@@ -1,0 +1,9 @@
+[project]
+name = "draft-pr-lab"
+version = "0.1.0"
+description = "Replication package: impact of GitHub Draft Pull Requests on CI build-minute consumption"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "tools"]
+testpaths = ["tests"]
