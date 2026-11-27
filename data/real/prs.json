@@ -1,0 +1,292 @@
+[
+  {
+    "closedAt": "2026-11-27T00:37:58Z",
+    "createdAt": "2026-11-27T00:36:03Z",
+    "headRefName": "ctrl/TASK-012-batch-import",
+    "isDraft": false,
+    "mergedAt": "2026-11-27T00:37:58Z",
+    "number": 29,
+    "state": "MERGED",
+    "title": "[LAB] TASK-012 batch import"
+  },
+  {
+    "closedAt": "2026-11-27T00:35:52Z",
+    "createdAt": "2026-11-27T00:33:36Z",
+    "headRefName": "draft/TASK-012-batch-import",
+    "isDraft": false,
+    "mergedAt": "2026-11-27T00:35:52Z",
+    "number": 28,
+    "state": "MERGED",
+    "title": "[LAB] TASK-012 batch import"
+  },
+  {
+    "closedAt": "2026-11-27T00:33:26Z",
+    "createdAt": "2026-11-27T00:31:33Z",
+    "headRefName": "draft/TASK-011-locale-fix",
+    "isDraft": false,
+    "mergedAt": "2026-11-27T00:33:26Z",
+    "number": 27,
+    "state": "MERGED",
+    "title": "[LAB] TASK-011 locale fix"
+  },
+  {
+    "closedAt": "2026-11-27T00:31:22Z",
+    "createdAt": "2026-11-27T00:29:49Z",
+    "headRefName": "ctrl/TASK-011-locale-fix",
+    "isDraft": false,
+    "mergedAt": "2026-11-27T00:31:22Z",
+    "number": 26,
+    "state": "MERGED",
+    "title": "[LAB] TASK-011 locale fix"
+  },
+  {
+    "closedAt": "2026-11-27T00:29:39Z",
+    "createdAt": "2026-11-27T00:27:46Z",
+    "headRefName": "draft/TASK-010-refactor-totals",
+    "isDraft": false,
+    "mergedAt": "2026-11-27T00:29:39Z",
+    "number": 25,
+    "state": "MERGED",
+    "title": "[LAB] TASK-010 refactor totals"
+  },
+  {
+    "closedAt": "2026-11-27T00:27:36Z",
+    "createdAt": "2026-11-27T00:26:03Z",
+    "headRefName": "ctrl/TASK-010-refactor-totals",
+    "isDraft": false,
+    "mergedAt": "2026-11-27T00:27:36Z",
+    "number": 24,
+    "state": "MERGED",
+    "title": "[LAB] TASK-010 refactor totals"
+  },
+  {
+    "closedAt": "2026-11-27T00:25:52Z",
+    "createdAt": "2026-11-27T00:23:54Z",
+    "headRefName": "ctrl/TASK-009-audit-log",
+    "isDraft": false,
+    "mergedAt": "2026-11-27T00:25:52Z",
+    "number": 23,
+    "state": "MERGED",
+    "title": "[LAB] TASK-009 audit log"
+  },
+  {
+    "closedAt": "2026-11-27T00:23:44Z",
+    "createdAt": "2026-11-27T00:20:44Z",
+    "headRefName": "draft/TASK-009-audit-log",
+    "isDraft": false,
+    "mergedAt": "2026-11-27T00:23:44Z",
+    "number": 22,
+    "state": "MERGED",
+    "title": "[LAB] TASK-009 audit log"
+  },
+  {
+    "closedAt": "2026-11-27T00:20:33Z",
+    "createdAt": "2026-11-27T00:16:48Z",
+    "headRefName": "draft/TASK-008-negative-qty",
+    "isDraft": false,
+    "mergedAt": "2026-11-27T00:20:33Z",
+    "number": 21,
+    "state": "MERGED",
+    "title": "[LAB] TASK-008 negative qty"
+  },
+  {
+    "closedAt": "2026-11-27T00:16:38Z",
+    "createdAt": "2026-11-27T00:13:56Z",
+    "headRefName": "ctrl/TASK-008-negative-qty",
+    "isDraft": false,
+    "mergedAt": "2026-11-27T00:16:37Z",
+    "number": 20,
+    "state": "MERGED",
+    "title": "[LAB] TASK-008 negative qty"
+  },
+  {
+    "closedAt": "2026-11-27T00:13:44Z",
+    "createdAt": "2026-11-27T00:09:35Z",
+    "headRefName": "draft/TASK-007-rate-lookup",
+    "isDraft": false,
+    "mergedAt": "2026-11-27T00:13:44Z",
+    "number": 19,
+    "state": "MERGED",
+    "title": "[LAB] TASK-007 rate lookup"
+  },
+  {
+    "closedAt": "2026-11-27T00:09:25Z",
+    "createdAt": "2026-11-27T00:06:22Z",
+    "headRefName": "ctrl/TASK-007-rate-lookup",
+    "isDraft": false,
+    "mergedAt": "2026-11-27T00:09:25Z",
+    "number": 18,
+    "state": "MERGED",
+    "title": "[LAB] TASK-007 rate lookup"
+  },
+  {
+    "closedAt": "2026-11-27T00:06:09Z",
+    "createdAt": "2026-11-27T00:03:29Z",
+    "headRefName": "draft/TASK-006-export-csv",
+    "isDraft": false,
+    "mergedAt": "2026-11-27T00:06:09Z",
+    "number": 17,
+    "state": "MERGED",
+    "title": "[LAB] TASK-006 export csv"
+  },
+  {
+    "closedAt": "2026-11-27T00:03:18Z",
+    "createdAt": "2026-11-27T00:01:00Z",
+    "headRefName": "ctrl/TASK-006-export-csv",
+    "isDraft": false,
+    "mergedAt": "2026-11-27T00:03:18Z",
+    "number": 16,
+    "state": "MERGED",
+    "title": "[LAB] TASK-006 export csv"
+  },
+  {
+    "closedAt": "2026-11-27T00:00:50Z",
+    "createdAt": "2026-11-26T23:59:41Z",
+    "headRefName": "ctrl/TASK-005-currency-format",
+    "isDraft": false,
+    "mergedAt": "2026-11-27T00:00:50Z",
+    "number": 15,
+    "state": "MERGED",
+    "title": "[LAB] TASK-005 currency format"
+  },
+  {
+    "closedAt": "2026-11-26T23:59:30Z",
+    "createdAt": "2026-11-26T23:57:18Z",
+    "headRefName": "draft/TASK-005-currency-format",
+    "isDraft": false,
+    "mergedAt": "2026-11-26T23:59:30Z",
+    "number": 14,
+    "state": "MERGED",
+    "title": "[LAB] TASK-005 currency format"
+  },
+  {
+    "closedAt": "2026-11-26T23:57:08Z",
+    "createdAt": "2026-11-26T23:54:26Z",
+    "headRefName": "ctrl/TASK-004-line-validation",
+    "isDraft": false,
+    "mergedAt": "2026-11-26T23:57:07Z",
+    "number": 13,
+    "state": "MERGED",
+    "title": "[LAB] TASK-004 line validation"
+  },
+  {
+    "closedAt": "2026-11-26T23:54:16Z",
+    "createdAt": "2026-11-26T23:50:31Z",
+    "headRefName": "draft/TASK-004-line-validation",
+    "isDraft": false,
+    "mergedAt": "2026-11-26T23:54:15Z",
+    "number": 12,
+    "state": "MERGED",
+    "title": "[LAB] TASK-004 line validation"
+  },
+  {
+    "closedAt": "2026-11-26T23:50:21Z",
+    "createdAt": "2026-11-26T23:49:12Z",
+    "headRefName": "ctrl/TASK-003-tax-table",
+    "isDraft": false,
+    "mergedAt": "2026-11-26T23:50:21Z",
+    "number": 11,
+    "state": "MERGED",
+    "title": "[LAB] TASK-003 tax table"
+  },
+  {
+    "closedAt": "2026-11-26T23:49:02Z",
+    "createdAt": "2026-11-26T23:46:48Z",
+    "headRefName": "draft/TASK-003-tax-table",
+    "isDraft": false,
+    "mergedAt": "2026-11-26T23:49:01Z",
+    "number": 10,
+    "state": "MERGED",
+    "title": "[LAB] TASK-003 tax table"
+  },
+  {
+    "closedAt": "2026-11-26T23:46:38Z",
+    "createdAt": "2026-11-26T23:43:39Z",
+    "headRefName": "draft/TASK-002-discount-rules",
+    "isDraft": false,
+    "mergedAt": "2026-11-26T23:46:38Z",
+    "number": 9,
+    "state": "MERGED",
+    "title": "[LAB] TASK-002 discount rules"
+  },
+  {
+    "closedAt": "2026-11-26T23:43:29Z",
+    "createdAt": "2026-11-26T23:41:34Z",
+    "headRefName": "ctrl/TASK-002-discount-rules",
+    "isDraft": false,
+    "mergedAt": "2026-11-26T23:43:29Z",
+    "number": 8,
+    "state": "MERGED",
+    "title": "[LAB] TASK-002 discount rules"
+  },
+  {
+    "closedAt": "2026-11-26T23:41:23Z",
+    "createdAt": "2026-11-26T23:40:35Z",
+    "headRefName": "ctrl/TASK-001-rounding",
+    "isDraft": false,
+    "mergedAt": "2026-11-26T23:41:23Z",
+    "number": 7,
+    "state": "MERGED",
+    "title": "[LAB] TASK-001 rounding"
+  },
+  {
+    "closedAt": "2026-11-26T23:40:23Z",
+    "createdAt": "2026-11-26T23:39:13Z",
+    "headRefName": "draft/TASK-001-rounding",
+    "isDraft": false,
+    "mergedAt": "2026-11-26T23:40:23Z",
+    "number": 6,
+    "state": "MERGED",
+    "title": "[LAB] TASK-001 rounding"
+  },
+  {
+    "closedAt": "2026-11-26T23:34:14Z",
+    "createdAt": "2026-11-26T23:32:45Z",
+    "headRefName": "scn/S5-11262327",
+    "isDraft": false,
+    "mergedAt": null,
+    "number": 5,
+    "state": "CLOSED",
+    "title": "[LAB] scenario S5"
+  },
+  {
+    "closedAt": "2026-11-26T23:32:35Z",
+    "createdAt": "2026-11-26T23:31:27Z",
+    "headRefName": "scn/S4-11262327",
+    "isDraft": false,
+    "mergedAt": null,
+    "number": 4,
+    "state": "CLOSED",
+    "title": "[LAB] scenario S4"
+  },
+  {
+    "closedAt": "2026-11-26T23:31:17Z",
+    "createdAt": "2026-11-26T23:29:46Z",
+    "headRefName": "scn/S3-11262327",
+    "isDraft": false,
+    "mergedAt": null,
+    "number": 3,
+    "state": "CLOSED",
+    "title": "[LAB] scenario S3"
+  },
+  {
+    "closedAt": "2026-11-26T23:29:36Z",
+    "createdAt": "2026-11-26T23:28:51Z",
+    "headRefName": "scn/S2-11262327",
+    "isDraft": true,
+    "mergedAt": null,
+    "number": 2,
+    "state": "CLOSED",
+    "title": "[LAB] scenario S2"
+  },
+  {
+    "closedAt": "2026-11-26T23:28:41Z",
+    "createdAt": "2026-11-26T23:27:55Z",
+    "headRefName": "scn/S1-11262327",
+    "isDraft": false,
+    "mergedAt": null,
+    "number": 1,
+    "state": "CLOSED",
+    "title": "[LAB] scenario S1"
+  }
+]

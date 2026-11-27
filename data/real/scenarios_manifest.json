@@ -1,0 +1,51 @@
+{
+  "repo": "Filipe-Cutri/draft-pr-lab",
+  "created_at": "2026-11-26T23:27:49Z",
+  "scenarios": [
+    {
+      "id": "S1",
+      "title": "Normal PR: open, then push",
+      "branch": "scn/S1-11262327",
+      "pr_number": 1,
+      "expect_executed": 2,
+      "expect_skipped": 0,
+      "strict": true
+    },
+    {
+      "id": "S2",
+      "title": "Draft PR: open, then push",
+      "branch": "scn/S2-11262327",
+      "pr_number": 2,
+      "expect_executed": 0,
+      "expect_skipped": 2,
+      "strict": true
+    },
+    {
+      "id": "S3",
+      "title": "Draft -> Ready for review -> push",
+      "branch": "scn/S3-11262327",
+      "pr_number": 3,
+      "expect_executed": 2,
+      "expect_skipped": 2,
+      "strict": true
+    },
+    {
+      "id": "S4",
+      "title": "Ready -> Draft -> Ready in quick succession (overlap case)",
+      "branch": "scn/S4-11262327",
+      "pr_number": 4,
+      "expect_executed": 3,
+      "expect_skipped": 0,
+      "strict": false
+    },
+    {
+      "id": "S5",
+      "title": "Converting to draft never triggers; push while draft is skipped",
+      "branch": "scn/S5-11262327",
+      "pr_number": 5,
+      "expect_executed": 2,
+      "expect_skipped": 1,
+      "strict": true
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "repo": "Filipe-Cutri/draft-pr-lab",
+    "collected_at": "2026-11-27T00:45:19Z",
+    "synthetic": false,
+    "workflow": "ci.yml",
+    "gh_version": "gh version 2.106.0 (2026-11-25)"
+  },
+  "price_per_min_usd": 0.006,
+  "arms": {
+    "ctrl": {
+      "prs_merged": 12,
+      "runs_total": 59,
+      "runs_executed": 59,
+      "runs_skipped": 0,
+      "skipped_share_pct": 0.0,
+      "conclusions": {
+        "success": 59
+      },
+      "billable_minutes": 162,
+      "cost_usd": 0.97,
+      "billable_min_per_pr": 13.5,
+      "executed_runs_per_pr": 4.92,
+      "mean_billable_min_per_executed_run": 2.75,
+      "mean_wall_min_per_executed_run": 2.26,
+      "legacy_mean_wall_min_per_run_incl_skipped": 2.26,
+      "executed_without_job_data": 0
+    },
+    "draft": {
+      "prs_merged": 12,
+      "runs_total": 78,
+      "runs_executed": 19,
+      "runs_skipped": 59,
+      "skipped_share_pct": 75.6,
+      "conclusions": {
+        "success": 19,
+        "skipped": 59
+      },
+      "billable_minutes": 53,
+      "cost_usd": 0.32,
+      "billable_min_per_pr": 4.42,
+      "executed_runs_per_pr": 1.58,
+      "mean_billable_min_per_executed_run": 2.79,
+      "mean_wall_min_per_executed_run": 2.26,
+      "legacy_mean_wall_min_per_run_incl_skipped": 0.58,
+      "executed_without_job_data": 0
+    }
+  },
+  "pairs": [
+    {
+      "task": "TASK-001",
+      "ctrl_billable_min": 6,
+      "ctrl_executed": 2,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 3,
+      "draft_executed": 1,
+      "draft_skipped": 2,
+      "saved_min": 3
+    },
+    {
+      "task": "TASK-002",
+      "ctrl_billable_min": 14,
+      "ctrl_executed": 5,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 4,
+      "draft_executed": 2,
+      "draft_skipped": 5,
+      "saved_min": 10
+    },
+    {
+      "task": "TASK-003",
+      "ctrl_billable_min": 9,
+      "ctrl_executed": 3,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 6,
+      "draft_executed": 2,
+      "draft_skipped": 3,
+      "saved_min": 3
+    },
+    {
+      "task": "TASK-004",
+      "ctrl_billable_min": 18,
+      "ctrl_executed": 7,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 6,
+      "draft_executed": 2,
+      "draft_skipped": 7,
+      "saved_min": 12
+    },
+    {
+      "task": "TASK-005",
+      "ctrl_billable_min": 9,
+      "ctrl_executed": 3,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 6,
+      "draft_executed": 2,
+      "draft_skipped": 3,
+      "saved_min": 3
+    },
+    {
+      "task": "TASK-006",
+      "ctrl_billable_min": 16,
+      "ctrl_executed": 6,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 3,
+      "draft_executed": 1,
+      "draft_skipped": 6,
+      "saved_min": 13
+    },
+    {
+      "task": "TASK-007",
+      "ctrl_billable_min": 22,
+      "ctrl_executed": 8,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 6,
+      "draft_executed": 2,
+      "draft_skipped": 8,
+      "saved_min": 16
+    },
+    {
+      "task": "TASK-008",
+      "ctrl_billable_min": 18,
+      "ctrl_executed": 7,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 5,
+      "draft_executed": 2,
+      "draft_skipped": 7,
+      "saved_min": 13
+    },
+    {
+      "task": "TASK-009",
+      "ctrl_billable_min": 14,
+      "ctrl_executed": 5,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 5,
+      "draft_executed": 2,
+      "draft_skipped": 5,
+      "saved_min": 9
+    },
+    {
+      "task": "TASK-010",
+      "ctrl_billable_min": 12,
+      "ctrl_executed": 4,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 3,
+      "draft_executed": 1,
+      "draft_skipped": 4,
+      "saved_min": 9
+    },
+    {
+      "task": "TASK-011",
+      "ctrl_billable_min": 12,
+      "ctrl_executed": 4,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 3,
+      "draft_executed": 1,
+      "draft_skipped": 4,
+      "saved_min": 9
+    },
+    {
+      "task": "TASK-012",
+      "ctrl_billable_min": 12,
+      "ctrl_executed": 5,
+      "ctrl_skipped": 0,
+      "draft_billable_min": 3,
+      "draft_executed": 1,
+      "draft_skipped": 5,
+      "saved_min": 9
+    }
+  ],
+  "paired": {
+    "n_pairs": 12,
+    "billable_ctrl_total": 162,
+    "billable_draft_total": 53,
+    "reduction_pct": 67.3,
+    "reduction_pct_ci95": [
+      59.2,
+      72.9
+    ],
+    "mean_diff_min": 9.08,
+    "mean_diff_min_ci95": [
+      6.75,
+      11.33
+    ],
+    "median_diff_min": 9.0,
+    "pairs_draft_cheaper_or_equal": 12,
+    "sign_flip_p_two_sided": 0.000488
+  },
+  "checks": {
+    "merged_prs_without_partner": [],
+    "runs_ignored_other_branches": 14,
+    "runs_not_completed": 0,
+    "executed_runs_without_job_data": 0,
+    "plan_mismatches": []
+  }
+}

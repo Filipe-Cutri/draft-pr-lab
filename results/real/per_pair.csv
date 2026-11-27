@@ -1,0 +1,13 @@
+task,ctrl_billable_min,draft_billable_min,saved_min,ctrl_executed,draft_executed,ctrl_skipped,draft_skipped
+TASK-001,6,3,3,2,1,0,2
+TASK-002,14,4,10,5,2,0,5
+TASK-003,9,6,3,3,2,0,3
+TASK-004,18,6,12,7,2,0,7
+TASK-005,9,6,3,3,2,0,3
+TASK-006,16,3,13,6,1,0,6
+TASK-007,22,6,16,8,2,0,8
+TASK-008,18,5,13,7,2,0,7
+TASK-009,14,5,9,5,2,0,5
+TASK-010,12,3,9,4,1,0,4
+TASK-011,12,3,9,4,1,0,4
+TASK-012,12,3,9,5,1,0,5

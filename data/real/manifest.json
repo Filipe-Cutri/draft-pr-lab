@@ -1,0 +1,249 @@
+{
+  "seed": 42,
+  "pairs": 12,
+  "repo": "Filipe-Cutri/draft-pr-lab",
+  "started_at": "2026-11-26T23:39:06Z",
+  "prs": [
+    {
+      "pair_id": 1,
+      "task": "TASK-001",
+      "arm": "draft",
+      "branch": "draft/TASK-001-rounding",
+      "pr_number": 6,
+      "pushes": 2,
+      "expected_executed": 1,
+      "expected_skipped": 2
+    },
+    {
+      "pair_id": 1,
+      "task": "TASK-001",
+      "arm": "ctrl",
+      "branch": "ctrl/TASK-001-rounding",
+      "pr_number": 7,
+      "pushes": 2,
+      "expected_executed": 2,
+      "expected_skipped": 0
+    },
+    {
+      "pair_id": 2,
+      "task": "TASK-002",
+      "arm": "ctrl",
+      "branch": "ctrl/TASK-002-discount-rules",
+      "pr_number": 8,
+      "pushes": 5,
+      "expected_executed": 5,
+      "expected_skipped": 0
+    },
+    {
+      "pair_id": 2,
+      "task": "TASK-002",
+      "arm": "draft",
+      "branch": "draft/TASK-002-discount-rules",
+      "pr_number": 9,
+      "pushes": 5,
+      "expected_executed": 2,
+      "expected_skipped": 5
+    },
+    {
+      "pair_id": 3,
+      "task": "TASK-003",
+      "arm": "draft",
+      "branch": "draft/TASK-003-tax-table",
+      "pr_number": 10,
+      "pushes": 3,
+      "expected_executed": 2,
+      "expected_skipped": 3
+    },
+    {
+      "pair_id": 3,
+      "task": "TASK-003",
+      "arm": "ctrl",
+      "branch": "ctrl/TASK-003-tax-table",
+      "pr_number": 11,
+      "pushes": 3,
+      "expected_executed": 3,
+      "expected_skipped": 0
+    },
+    {
+      "pair_id": 4,
+      "task": "TASK-004",
+      "arm": "draft",
+      "branch": "draft/TASK-004-line-validation",
+      "pr_number": 12,
+      "pushes": 7,
+      "expected_executed": 2,
+      "expected_skipped": 7
+    },
+    {
+      "pair_id": 4,
+      "task": "TASK-004",
+      "arm": "ctrl",
+      "branch": "ctrl/TASK-004-line-validation",
+      "pr_number": 13,
+      "pushes": 7,
+      "expected_executed": 7,
+      "expected_skipped": 0
+    },
+    {
+      "pair_id": 5,
+      "task": "TASK-005",
+      "arm": "draft",
+      "branch": "draft/TASK-005-currency-format",
+      "pr_number": 14,
+      "pushes": 3,
+      "expected_executed": 2,
+      "expected_skipped": 3
+    },
+    {
+      "pair_id": 5,
+      "task": "TASK-005",
+      "arm": "ctrl",
+      "branch": "ctrl/TASK-005-currency-format",
+      "pr_number": 15,
+      "pushes": 3,
+      "expected_executed": 3,
+      "expected_skipped": 0
+    },
+    {
+      "pair_id": 6,
+      "task": "TASK-006",
+      "arm": "ctrl",
+      "branch": "ctrl/TASK-006-export-csv",
+      "pr_number": 16,
+      "pushes": 6,
+      "expected_executed": 6,
+      "expected_skipped": 0
+    },
+    {
+      "pair_id": 6,
+      "task": "TASK-006",
+      "arm": "draft",
+      "branch": "draft/TASK-006-export-csv",
+      "pr_number": 17,
+      "pushes": 6,
+      "expected_executed": 1,
+      "expected_skipped": 6
+    },
+    {
+      "pair_id": 7,
+      "task": "TASK-007",
+      "arm": "ctrl",
+      "branch": "ctrl/TASK-007-rate-lookup",
+      "pr_number": 18,
+      "pushes": 8,
+      "expected_executed": 8,
+      "expected_skipped": 0
+    },
+    {
+      "pair_id": 7,
+      "task": "TASK-007",
+      "arm": "draft",
+      "branch": "draft/TASK-007-rate-lookup",
+      "pr_number": 19,
+      "pushes": 8,
+      "expected_executed": 2,
+      "expected_skipped": 8
+    },
+    {
+      "pair_id": 8,
+      "task": "TASK-008",
+      "arm": "ctrl",
+      "branch": "ctrl/TASK-008-negative-qty",
+      "pr_number": 20,
+      "pushes": 7,
+      "expected_executed": 7,
+      "expected_skipped": 0
+    },
+    {
+      "pair_id": 8,
+      "task": "TASK-008",
+      "arm": "draft",
+      "branch": "draft/TASK-008-negative-qty",
+      "pr_number": 21,
+      "pushes": 7,
+      "expected_executed": 2,
+      "expected_skipped": 7
+    },
+    {
+      "pair_id": 9,
+      "task": "TASK-009",
+      "arm": "draft",
+      "branch": "draft/TASK-009-audit-log",
+      "pr_number": 22,
+      "pushes": 5,
+      "expected_executed": 2,
+      "expected_skipped": 5
+    },
+    {
+      "pair_id": 9,
+      "task": "TASK-009",
+      "arm": "ctrl",
+      "branch": "ctrl/TASK-009-audit-log",
+      "pr_number": 23,
+      "pushes": 5,
+      "expected_executed": 5,
+      "expected_skipped": 0
+    },
+    {
+      "pair_id": 10,
+      "task": "TASK-010",
+      "arm": "ctrl",
+      "branch": "ctrl/TASK-010-refactor-totals",
+      "pr_number": 24,
+      "pushes": 4,
+      "expected_executed": 4,
+      "expected_skipped": 0
+    },
+    {
+      "pair_id": 10,
+      "task": "TASK-010",
+      "arm": "draft",
+      "branch": "draft/TASK-010-refactor-totals",
+      "pr_number": 25,
+      "pushes": 4,
+      "expected_executed": 1,
+      "expected_skipped": 4
+    },
+    {
+      "pair_id": 11,
+      "task": "TASK-011",
+      "arm": "ctrl",
+      "branch": "ctrl/TASK-011-locale-fix",
+      "pr_number": 26,
+      "pushes": 4,
+      "expected_executed": 4,
+      "expected_skipped": 0
+    },
+    {
+      "pair_id": 11,
+      "task": "TASK-011",
+      "arm": "draft",
+      "branch": "draft/TASK-011-locale-fix",
+      "pr_number": 27,
+      "pushes": 4,
+      "expected_executed": 1,
+      "expected_skipped": 4
+    },
+    {
+      "pair_id": 12,
+      "task": "TASK-012",
+      "arm": "draft",
+      "branch": "draft/TASK-012-batch-import",
+      "pr_number": 28,
+      "pushes": 5,
+      "expected_executed": 1,
+      "expected_skipped": 5
+    },
+    {
+      "pair_id": 12,
+      "task": "TASK-012",
+      "arm": "ctrl",
+      "branch": "ctrl/TASK-012-batch-import",
+      "pr_number": 29,
+      "pushes": 5,
+      "expected_executed": 5,
+      "expected_skipped": 0
+    }
+  ],
+  "finished_at": "2026-11-27T00:38:01Z"
+}
